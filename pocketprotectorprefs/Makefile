@@ -4,7 +4,9 @@ BUNDLE_NAME = pocketprotectorprefs
 
 pocketprotectorprefs_FILES = PPPRootListController.m
 pocketprotectorprefs_INSTALL_PATH = /Library/PreferenceBundles
-pocketprotectorprefs_FRAMEWORKS = UIKit
+pocketprotectorprefs_FRAMEWORKS = UIKit Cephei CepheiPrefs
+pocketprotectorprefs_EXTRA_FRAMEWORKS += Cephei CepheiPrefs
+pocketprotectorprefs_LDFLAGS = -F$(THEOS)/lib
 pocketprotectorprefs_PRIVATE_FRAMEWORKS = Preferences
 pocketprotectorprefs_CFLAGS = -fobjc-arc
 
