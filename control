@@ -1,6 +1,6 @@
 Package: dev.squiddy.pp
 Name: PocketProtector
-Version: 1.2.1
+Version: 1.3.0
 Architecture: iphoneos-arm
 Description: Prevent pocket dials and other pocket usage.
 Maintainer: Brady Holland
